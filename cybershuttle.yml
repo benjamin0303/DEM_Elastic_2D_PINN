@@ -1,0 +1,31 @@
+project:
+  name: "DEM-cybershuttle"
+  description: "Deep Energy Method demo for Cybershuttle"
+  homepage: "https://github.com/cyber-shuttle/mfc-cybershuttle"
+  authors:
+    - pjaya001@odu.edu
+    - spamidig@gatech.edu
+  tags:
+    - CISSE25
+ 
+workspace:
+  resources:
+    min_cpu: 4
+    min_mem: 4000
+    min_gpu: 0
+    gpu_mem: 0
+  model_collection: []
+  data_collection: []
+ 
+additional_dependencies:
+  modules: []
+  conda:
+    - python=3.10
+    - pip
+    - make
+    - cmake
+    - compilers
+    - openmpi
+    - wget
+  pip: []
+  
