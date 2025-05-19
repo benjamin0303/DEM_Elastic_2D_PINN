@@ -4,7 +4,6 @@ project:
   homepage: "https://github.com/benjamin0303/DEM_Elastic_2D_PINN"
   authors:
     - abueidd2@illinois.edu
-    - koric@illinois.edu
     - jaewanp2@illinois.edu
   tags:
     - NCSA
