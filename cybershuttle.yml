@@ -1,12 +1,15 @@
 project:
   name: "DEM-cybershuttle"
   description: "Deep Energy Method demo for Cybershuttle"
-  homepage: "https://github.com/cyber-shuttle/mfc-cybershuttle"
+  homepage: "https://github.com/benjamin0303/DEM_Elastic_2D_PINN"
   authors:
-    - pjaya001@odu.edu
-    - spamidig@gatech.edu
+    - abueidd2@illinois.edu
+    - koric@illinois.edu
+    - jaewanp2@illinois.edu
   tags:
-    - CISSE25
+    - NCSA
+    - DEM
+    - PINN
  
 workspace:
   resources:
@@ -27,5 +30,8 @@ additional_dependencies:
     - compilers
     - openmpi
     - wget
+    - numpy
+    - torch
+    - matplotlib
   pip: []
   
