@@ -28,8 +28,5 @@ additional_dependencies:
     - compilers
     - openmpi
     - wget
-    - numpy
-    - torch
-    - matplotlib
   pip: []
   

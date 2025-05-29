@@ -212,7 +212,7 @@ class DeepEnergyMethod:
                 optimizer_LBFGS.zero_grad()
                 loss.backward()
                 loss_history[t] = loss.item()
-                self.lossArray.append(loss.data)
+                self.lossArray.append(loss.data.cpu().detach().numpy())
                 return loss
 
             if t > 0 and (np.abs(loss_history[t - 1] - loss_history[t - 2]) < 10e-5):
@@ -374,4 +374,4 @@ if __name__ == "__main__":
         'act_func': 'tanh'
     }
 
-    main(optimize=optimize, user_params=user_params)
+    main(optimize=optimize, user_params=None)
