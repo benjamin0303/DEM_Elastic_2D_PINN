@@ -1,13 +1,13 @@
 project:
-  name: "DEM-cybershuttle"
-  description: "Deep Energy Method demo for Cybershuttle"
-  homepage: "https://github.com/benjamin0303/DEM_Elastic_2D_PINN"
+  name: "Imagen_video"
+  description: "Imagen video for Dogbone sample"
+  homepage: "https://github.com/benjamin0303/"
   authors:
     - jaewanp2@illinois.edu
   tags:
     - NCSA
-    - DEM
-    - PINN
+    - Imagen
+    - Plasticity
  
 workspace:
   resources:
